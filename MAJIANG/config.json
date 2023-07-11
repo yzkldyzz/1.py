@@ -1,0 +1,32 @@
+{
+    "model_type": "TensorFlow",
+    "model_algorithm": "predict_analysis",
+    "dependencies": [{
+        "installer": "pip",
+        "packages": [{
+                "restraint": "EXACT",
+                "package_version": "2.4.0",
+                "package_name": "pygame"
+            },
+            {
+                "restraint": "EXACT",
+                "package_version": "2.6.0",
+                "package_name": "tensorflow"
+            },
+            {
+                "restraint": "EXACT",
+                "package_version": "0.97",
+                "package_name": "easygui"
+            },
+            {
+                "restraint": "EXACT",
+                "package_version": "1.4.0",
+                "package_name": "argparse"
+            },
+            {
+                "restraint": "EXACT",
+                "package_name": "time"
+            }
+        ]
+    }]
+}
